@@ -43,7 +43,7 @@ growth_rate = st.slider(
     min_value=0.0,
     max_value=0.10,
     value=0.03,
-    step=0.005,
+    step=0.001,
     format="%.1f%%",
     help="Used to estimate how many years it would take the domestic pipeline to cover "
     "the overseas cohort plus current vacancies: shortfall / (UK staff x growth rate).",
