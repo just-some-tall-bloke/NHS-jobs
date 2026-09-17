@@ -173,6 +173,16 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
+# Project-specific
+# Build-time ETL assets only; the deployed app needs just main.py,
+# nhs_workforce_data.csv, requirements.txt and .streamlit/
+data/
+prepare_data.py
+Core *.csv
+Core *.xlsx
+nhs-vac-stats-*.xlsx
+raw_nhs_hchs_data.csv
+
 # Cursor  
 #  Cursor is an AI-powered code editor.`.cursorignore` specifies files/directories to 
 #  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data
